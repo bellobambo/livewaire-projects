@@ -20,3 +20,13 @@ Route::get('/', function () {
 })->name('counter');
 
 Route::get('/calculator', \App\Livewire\Calculator::class)->name('calculator');
+
+Route::get('/todo-list', \App\Livewire\TodoList::class)->name('todo-list');
+
+Route::get('/cascading-dropdown', \App\Livewire\CascadingDropDown::class)->name('cascading-dropdown');
+
+Route::get('/products', \App\Livewire\ProductSearch::class)->name('products');
+
+Route::get('/image-upload', \App\Livewire\ImageUpload::class)->name('image-upload');
+
+Route::get('/register', \App\Livewire\RegisterForm::class)->name('register');
